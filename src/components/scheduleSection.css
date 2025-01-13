@@ -1,0 +1,435 @@
+.scheduleSection__background-video {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+  height: 100vh;
+  min-height: 900px;
+  max-height: 900px;
+}
+.scheduleSection__outer-div {
+  background-color: rgba(0, 0, 0, 0.825);
+  color: #fff;
+  padding-left: 2%;
+  padding-right: 2%;
+  height: 100vh;
+  min-height: 900px;
+  max-height: 900px;
+}
+.scheduleSection__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  min-height: 900px;
+  max-height: 900px;
+}
+.scheduleSection__top {
+  flex: 1.5;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.scheduleSection__top img {
+  width: 95%;
+}
+.scheduleSection__mid {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.scheduleSection__mid ul {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.schedule-day {
+  width: 32%;
+  margin-bottom: 15px;
+}
+.time-slot {
+  display: flex;
+  flex-direction: column;
+}
+.schedule-day h3 {
+  color: #757b4f;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+  margin-top: 0px;
+}
+.scheduleSection__bottom {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding-bottom: 20px;
+  margin-top: 15px;
+  flex: 1;
+}
+.scheduleSection__bottom h4 {
+  margin: 3px;
+  margin-left: 0;
+  margin-right: 0;
+  padding: 0;
+}
+
+/* Small phones: 320px - 480px */
+@media (min-width: 320px) and (max-width: 480px) and (min-height: 480px) {
+  /* D O N E */
+}
+
+/* Taller small phones: 320px - 720px */
+@media (min-width: 320px) and (max-width: 480px) and (min-height: 720px) {
+  /* D O N E */
+}
+
+/* Slightly wider phones: 360px - 480px */
+@media (min-width: 360px) and (max-width: 480px) and (min-height: 480px) {
+  /* D O N E */
+}
+
+@media (min-width: 420px) and (max-width: 480px) and (min-height: 480px) {
+  /* D O N E */
+}
+
+/* Tall average phones: 360px - 720px */
+@media (min-width: 360px) and (max-width: 480px) and (min-height: 720px) {
+  /* D O N E */
+}
+
+/* iPhones: 375px - 667px */
+@media (min-width: 375px) and (max-width: 667px) and (min-height: 667px) {
+  /* D O N E */
+}
+
+/* Medium phones: 481px - 720px */
+@media (min-width: 481px) and (max-width: 720px) and (min-height: 720px) {
+  /* D O N E */
+}
+
+/* Small tablets: 481px - 768px */
+@media (min-width: 481px) and (max-width: 768px) and (min-height: 768px) {
+  /* D O N E */
+}
+
+/* Dynamic ranges: Between phones and tablets */
+@media (min-width: 768px) and (max-width: 960px) {
+  .scheduleSection__top img {
+    width: 95%;
+    max-width: 650px;
+  }
+  /* D O N E */
+}
+
+/* Tablets in portrait: 769px - 1024px */
+@media (min-width: 768px) and (max-width: 1024px) and (min-height: 1024px) {
+  .scheduleSection__top img {
+    width: 95%;
+    max-width: 650px;
+  }
+  /* D O N E */
+}
+
+/* Tablets in landscape: 1025px - 1280px */
+@media (min-width: 1025px) and (max-width: 1280px) and (min-height: 768px) {
+  .scheduleSection__top img {
+    width: 95%;
+    max-width: 850px;
+    margin-top: 50px;
+  }
+  .scheduleSection__mid {
+    flex-wrap: nowrap;
+    width: 90%;
+    min-height: 325px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 50vh;
+    flex: 1;
+  }
+  .schedule-day {
+    min-height: 300px;
+  }
+}
+
+/* Smaller laptops: 961px - 1200px */
+@media (min-width: 961px) and (max-width: 1200px) {
+  .scheduleSection__top img {
+    width: 95%;
+    max-width: 850px;
+    margin-top: 50px;
+  }
+  .scheduleSection__mid {
+    flex-wrap: nowrap;
+    width: 90%;
+    min-height: 325px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 50vh;
+    flex: 1;
+  }
+  .schedule-day {
+    min-height: 300px;
+  }
+}
+
+/* Small laptops: 1281px - 1366px */
+@media (min-width: 1281px) and (max-width: 1366px) and (min-height: 768px) {
+  .scheduleSection__top img {
+    width: 95%;
+    max-width: 850px;
+    margin-top: 50px;
+  }
+  .scheduleSection__mid {
+    flex-wrap: nowrap;
+    width: 90%;
+    min-height: 325px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex: 5;
+  }
+  .schedule-day {
+    min-height: 375px;
+  }
+  .schedule-day h3 {
+    font-size: 22px;
+  }
+  .schedule-day span {
+    font-size: 22px;
+  }
+  .scheduleSection__bottom h4 {
+    font-size: 22px;
+  }
+}
+
+/* Medium laptops: 1201px - 1440px */
+@media (min-width: 1201px) and (max-width: 1440px) {
+  .scheduleSection__top img {
+    width: 95%;
+    max-width: 850px;
+    margin-top: 50px;
+  }
+  .scheduleSection__mid {
+    flex-wrap: nowrap;
+    width: 90%;
+    min-height: 325px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex: 6;
+  }
+  .schedule-day {
+    min-height: 375px;
+  }
+  .schedule-day h3 {
+    font-size: 22px;
+  }
+  .schedule-day span {
+    font-size: 22px;
+  }
+  .scheduleSection__bottom h4 {
+    font-size: 22px;
+  }
+}
+
+/* Larger laptops and desktops: 1367px - 1920px */
+@media (min-width: 1367px) and (max-width: 1920px) {
+  .scheduleSection__top img {
+    width: 95%;
+    max-width: 850px;
+    margin-top: 50px;
+  }
+  .scheduleSection__mid {
+    flex-wrap: nowrap;
+    width: 90%;
+    min-height: 325px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex: 6;
+  }
+  .schedule-day {
+    min-height: 375px;
+  }
+  .schedule-day h3 {
+    font-size: 22px;
+  }
+  .schedule-day span {
+    font-size: 22px;
+  }
+  .scheduleSection__bottom h4 {
+    font-size: 22px;
+  }
+}
+
+/* Full HD to 2K: 1921px - 2560px */
+@media (min-width: 1921px) and (max-width: 2560px) {
+  .scheduleSection__top img {
+    width: 95%;
+    max-width: 850px;
+    margin-top: 50px;
+  }
+  .scheduleSection__mid {
+    flex-wrap: nowrap;
+    width: 90%;
+    max-width: 1728px;
+    min-height: 325px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex: 6;
+  }
+  .schedule-day {
+    min-height: 375px;
+  }
+  .schedule-day h3 {
+    font-size: 22px;
+  }
+  .schedule-day span {
+    font-size: 22px;
+  }
+  .scheduleSection__bottom h4 {
+    font-size: 22px;
+  }
+}
+
+@media (min-width: 1921px) and (max-width: 2560px) {
+  .scheduleSection__top img {
+    width: 95%;
+    max-width: 850px;
+    margin-top: 50px;
+  }
+  .scheduleSection__mid {
+    flex-wrap: nowrap;
+    width: 90%;
+    max-width: 1728px;
+    min-height: 325px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex: 6;
+  }
+  .schedule-day {
+    min-height: 375px;
+  }
+  .schedule-day h3 {
+    font-size: 22px;
+  }
+  .schedule-day span {
+    font-size: 22px;
+  }
+  .scheduleSection__bottom h4 {
+    font-size: 22px;
+  }
+}
+
+/* 2K resolution: 2561px - 3840px */
+@media (min-width: 2561px) and (max-width: 3840px) {
+  .scheduleSection__top img {
+    width: 95%;
+    max-width: 850px;
+    margin-top: 50px;
+  }
+  .scheduleSection__mid {
+    flex-wrap: nowrap;
+    width: 90%;
+    max-width: 1728px;
+    min-height: 325px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex: 6;
+  }
+  .schedule-day {
+    min-height: 375px;
+  }
+  .schedule-day h3 {
+    font-size: 22px;
+  }
+  .schedule-day span {
+    font-size: 22px;
+  }
+  .scheduleSection__bottom h4 {
+    font-size: 22px;
+  }
+}
+
+/* 4K and beyond */
+@media (min-width: 3841px) {
+  .scheduleSection__top img {
+    width: 95%;
+    max-width: 850px;
+    margin-top: 50px;
+  }
+  .scheduleSection__mid {
+    flex-wrap: nowrap;
+    width: 90%;
+    max-width: 1728px;
+    min-height: 325px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex: 6;
+  }
+  .schedule-day {
+    min-height: 375px;
+  }
+  .schedule-day h3 {
+    font-size: 22px;
+  }
+  .schedule-day span {
+    font-size: 22px;
+  }
+  .scheduleSection__bottom h4 {
+    font-size: 22px;
+  }
+}
+
+/* Small widescreens (16:9 aspect ratio) */
+@media (min-aspect-ratio: 16/9) and (max-width: 1366px) {
+}
+
+/* Very wide screens (Ultrawide monitors) */
+@media (min-width: 3440px) and (min-height: 1440px) {
+}
+
+@media (min-width: 3440px) and (min-height: 1600px) {
+}
+
+@media (min-width: 3440px) and (min-height: 1850px) {
+}
+
+/* Large widescreens (16:9 aspect ratio) */
+@media (min-aspect-ratio: 16/9) and (min-width: 1920px) {
+}
+
+/* Tall screens (3:4 or 2:3 aspect ratio) */
+@media (max-aspect-ratio: 3/4) and (min-height: 1024px) {
+}
+
+/* Foldable devices in portrait */
+@media (min-width: 280px) and (max-width: 1536px) and (orientation: portrait) {
+}
+
+/* Foldable devices in landscape */
+@media (min-width: 280px) and (max-width: 1536px) and (orientation: landscape) {
+}

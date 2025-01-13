@@ -1,0 +1,47 @@
+.NavigationModal__overall-div {
+  background-color: rgba(18, 18, 18, 0.9);
+  height: 100vh;
+  width: 100%;
+  color: white;
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700; /* Bold weight */
+  font-style: normal; /* Normal style */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.c-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding-right: 13%;
+  margin-top: 1.5vh;
+}
+.NavigationModal__overall-div ul {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+  padding: 0;
+  margin-bottom: 17.5vh;
+  margin-top: 12.5vh;
+  flex: 1;
+}
+
+.NavigationModal__overall-div .flags {
+  display: flex;
+  flex-direction: row;
+  width: 75px;
+  justify-content: space-between;
+  align-items: center;
+}
+.NavigationModal__overall-div .divider {
+  width: 2px;
+  background-color: #757b4f;
+  height: 20px;
+}

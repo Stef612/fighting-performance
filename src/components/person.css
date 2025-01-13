@@ -1,0 +1,466 @@
+/*4 PEOPLE---------------------------------------------*/
+.person__overall-div-4 {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  min-height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.person__overall-div-4 .background-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.person__overall-div-4 .individuals-info {
+  height: 100vh;
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.person__overall-div-4 .gradient-overlay {
+  width: 100%;
+  height: 8vh;
+  background: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.7));
+  margin: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+.person__overall-div-4 .dark {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.person__overall-div-4 .dark h2 {
+  margin: 0;
+  margin-bottom: 10px;
+  margin-left: 2.5%;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700; /* Bold weight */
+  font-style: normal; /* Normal style */
+  text-transform: capitalize;
+}
+.person__overall-div-4 .dark h3 {
+  margin: 0;
+  margin-bottom: 8px;
+  margin-left: 2.5%;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 550; /* Regular weight */
+  font-style: normal; /* Normal style */
+}
+.person__overall-div-4 .dark h5 {
+  margin: 0;
+  margin-bottom: 7.5px;
+  margin-left: 2.5%;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400; /* Regular weight */
+  font-style: normal; /* Normal style */
+}
+.person__overall-div-4 .dark p {
+  text-align: left;
+  margin: 0;
+  margin-bottom: 12px;
+  margin-left: 2.5%;
+}
+
+@media (min-width: 501px) {
+  .person__overall-div-4 {
+    flex: 1;
+    min-width: 274px;
+    height: 90vh;
+    overflow: hidden;
+  }
+}
+@media (min-width: 750px) {
+  .person__overall-div-4 {
+    flex: 1;
+    min-width: 365px;
+    height: 90vh;
+    overflow: hidden;
+  }
+}
+@media (min-width: 1094px) {
+  .person__overall-div-4 {
+    flex: 1;
+    min-width: 200px;
+    height: 90vh;
+    overflow: hidden;
+  }
+}
+
+@media (min-width: 1000px) and (max-width: 1366px) {
+  .person__overall-div-4 h2 {
+    font-size: 21px;
+  }
+  .person__overall-div-4 h3 {
+    font-size: 17px;
+  }
+  .person__overall-div-4 p {
+    font-size: 16px;
+  }
+}
+@media (min-width: 1367px) and (max-width: 1920px) {
+  .person__overall-div-4 h2 {
+    font-size: 23px;
+  }
+  .person__overall-div-4 h3 {
+    font-size: 18px;
+  }
+  .person__overall-div-4 p {
+    font-size: 17px;
+  }
+}
+@media (min-width: 1921px) and (max-width: 2560px) {
+  .person__overall-div-4 h2 {
+    font-size: 32px;
+  }
+  .person__overall-div-4 h3 {
+    font-size: 27px;
+  }
+  .person__overall-div-4 p {
+    font-size: 26px;
+  }
+}
+@media (min-width: 2561px) {
+  .person__overall-div-4 h2 {
+    font-size: 38px;
+  }
+  .person__overall-div-4 h3 {
+    font-size: 33px;
+  }
+  .person__overall-div-4 p {
+    font-size: 32px;
+  }
+}
+
+/*3 PEOPLE---------------------------------------------*/
+.person__overall-div-3 {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  min-height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.person__overall-div-3 .background-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-size: cover;
+  background-position: center;
+  z-index: 1; /* Background should be behind the text */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.person__overall-div-3 .individuals-info {
+  height: 100vh;
+  position: relative;
+  z-index: 2; /* Ensure text is above the background */
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.person__overall-div-3 .gradient-overlay {
+  width: 100%;
+  height: 8vh;
+  background: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.7));
+  margin: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 2; /* Overlay should be above background */
+}
+.person__overall-div-3 .dark {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.person__overall-div-3 .dark h2 {
+  margin: 0;
+  margin-bottom: 10px;
+  margin-left: 2.5%;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700; /* Bold weight */
+  font-style: normal; /* Normal style */
+  text-transform: capitalize;
+}
+.person__overall-div-3 .dark h3 {
+  margin: 0;
+  margin-bottom: 8px;
+  margin-left: 2.5%;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 550; /* Regular weight */
+  font-style: normal; /* Normal style */
+}
+.person__overall-div-3 .dark h5 {
+  margin: 0;
+  margin-bottom: 7.5px;
+  margin-left: 2.5%;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400; /* Regular weight */
+  font-style: normal; /* Normal style */
+}
+.person__overall-div-3 .dark p {
+  text-align: left;
+  margin: 0;
+  margin-bottom: 12px;
+  margin-left: 2.5%;
+}
+@media (min-width: 500px) and (max-width: 750px) {
+  .person__overall-div-3 {
+    flex: 1;
+    width: 475px;
+    height: 90vh;
+    overflow: hidden;
+  }
+}
+
+@media (min-width: 750px) and (max-width: 1750px) {
+  .person__overall-div-3 {
+    flex: 1;
+    min-width: 230px;
+    height: 90vh;
+    overflow: hidden;
+  }
+}
+@media (min-width: 1751px) {
+  .person__overall-div-3 {
+    width: 30%;
+    height: 90vh;
+    overflow: hidden;
+  }
+}
+
+@media (min-width: 1000px) and (max-width: 1366px) {
+  .person__overall-div-3 h2 {
+    font-size: 21px;
+  }
+  .person__overall-div-3 h3 {
+    font-size: 17px;
+  }
+  .person__overall-div-3 p {
+    font-size: 16px;
+  }
+}
+@media (min-width: 1367px) and (max-width: 1920px) {
+  .person__overall-div-3 h2 {
+    font-size: 23px;
+  }
+  .person__overall-div-3 h3 {
+    font-size: 18px;
+  }
+  .person__overall-div-3 p {
+    font-size: 17px;
+  }
+}
+@media (min-width: 1921px) and (max-width: 2560px) {
+  .person__overall-div-3 h2 {
+    font-size: 32px;
+  }
+  .person__overall-div-3 h3 {
+    font-size: 27px;
+  }
+  .person__overall-div-3 p {
+    font-size: 26px;
+  }
+}
+@media (min-width: 2561px) {
+  .person__overall-div-3 h2 {
+    font-size: 38px;
+  }
+  .person__overall-div-3 h3 {
+    font-size: 33px;
+  }
+  .person__overall-div-3 p {
+    font-size: 32px;
+  }
+}
+
+/*2 PEOPLE---------------------------------------------*/
+.person__overall-div-2 {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  min-height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.person__overall-div-2 .background-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-size: cover;
+  background-position: center;
+  z-index: 1; /* Background should be behind the text */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.person__overall-div-2 .individuals-info {
+  height: 100vh;
+  position: relative;
+  z-index: 2; /* Ensure text is above the background */
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.person__overall-div-2 .gradient-overlay {
+  width: 100%;
+  height: 8vh;
+  background: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.7));
+  margin: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 2; /* Overlay should be above background */
+}
+.person__overall-div-2 .dark {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.person__overall-div-2 .dark h2 {
+  margin: 0;
+  margin-bottom: 10px;
+  margin-left: 2.5%;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700; /* Bold weight */
+  font-style: normal; /* Normal style */
+  text-transform: capitalize;
+}
+.person__overall-div-2 .dark h3 {
+  margin: 0;
+  margin-bottom: 8px;
+  margin-left: 2.5%;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 550; /* Regular weight */
+  font-style: normal; /* Normal style */
+}
+.person__overall-div-2 .dark h5 {
+  margin: 0;
+  margin-bottom: 7.5px;
+  margin-left: 2.5%;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400; /* Regular weight */
+  font-style: normal; /* Normal style */
+}
+.person__overall-div-2 .dark p {
+  text-align: left;
+  margin: 0;
+  margin-bottom: 12px;
+  margin-left: 2.5%;
+}
+
+@media (min-width: 501px) and (max-width: 1093) {
+  .person__overall-div-2 {
+    flex: 1;
+    min-width: 274px;
+    height: 90vh;
+    overflow: hidden;
+  }
+}
+@media (min-width: 1094px) {
+  .person__overall-div-2 {
+    width: 38%;
+    height: 90vh;
+    overflow: hidden;
+  }
+}
+
+@media (min-width: 1000px) and (max-width: 1366px) {
+  .person__overall-div-2 h2 {
+    font-size: 21px;
+  }
+  .person__overall-div-2 h3 {
+    font-size: 17px;
+  }
+  .person__overall-div-2 p {
+    font-size: 16px;
+  }
+}
+@media (min-width: 1367px) and (max-width: 1920px) {
+  .person__overall-div-2 h2 {
+    font-size: 23px;
+  }
+  .person__overall-div-2 h3 {
+    font-size: 18px;
+  }
+  .person__overall-div-2 p {
+    font-size: 17px;
+  }
+}
+@media (min-width: 1921px) and (max-width: 2560px) {
+  .person__overall-div-2 h2 {
+    font-size: 32px;
+  }
+  .person__overall-div-2 h3 {
+    font-size: 27px;
+  }
+  .person__overall-div-2 p {
+    font-size: 26px;
+  }
+}
+@media (min-width: 2561px) {
+  .person__overall-div-2 h2 {
+    font-size: 38px;
+  }
+  .person__overall-div-2 h3 {
+    font-size: 33px;
+  }
+  .person__overall-div-2 p {
+    font-size: 32px;
+  }
+}
+.fighting-khaki {
+  color: #757b4f;
+}
